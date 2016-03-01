@@ -1,2 +1,9 @@
 /bower_components
+<<<<<<< HEAD
+<<<<<<< HEAD
 bower.json
+=======
+>>>>>>> eb8e4c92d9b137a10e50c6a8daed1a7b9e223023
+=======
+/node_modules
+>>>>>>> 09943c36a7c804339196228cd802e60663b1dd9e

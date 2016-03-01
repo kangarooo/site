@@ -1,0 +1,29 @@
+{
+  "name": "site",
+  "version": "0.0.0",
+  "description": "Simple site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+<<<<<<< HEAD
+    "url": "https://github.com/kangarooo/site.git"
+=======
+    "url": "https://github.com/jankosacc/site.git"
+>>>>>>> 09943c36a7c804339196228cd802e60663b1dd9e
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+<<<<<<< HEAD
+    "url": "https://github.com/kangarooo/site/issues"
+=======
+    "url": "https://github.com/jankosacc/site/issues"
+>>>>>>> 09943c36a7c804339196228cd802e60663b1dd9e
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
