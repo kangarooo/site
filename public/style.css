@@ -1,0 +1,15 @@
+.menu .menu--items .menu--item {
+
+}
+
+.menu--items {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background: #ccc;
+}
+
+.menu--item {
+  margin: 10px;
+  display: inline-block;
+}
