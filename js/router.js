@@ -9,15 +9,15 @@ function ($, _, Backbone, DefaultView) {
   });
   var initialize = function () {
     var siteRouter = new SiteRouter();
+    var defaultView = new DefaultView();
     siteRouter.on('route:defaultAction', function(){
-      var defaultView = new DefaultView();
-      defaultView.render();
+      defaultView.render('main');
     });
     siteRouter.on('route:aboutAction', function(){
-      console.log('about');
+      defaultView.render('about');
     });
     siteRouter.on('route:contactAction', function(){
-      console.log('contact');
+      defaultView.render('contact');
     });
     Backbone.history.start();
   };
